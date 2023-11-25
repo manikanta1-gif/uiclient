@@ -1,7 +1,10 @@
-import React from "react";
-import styles from "./Header.module.css"
+import React from "react"
+import styles from './Header.module.css'
+
 export const Header=()=>{
-    return <div>
-        Header
-    </div>
+    return <div data-testid="div-test-id" className={`bg-primary text-center text-white ${styles.header} fs`}>End TO End  Application</div>
 }
+
+
+
+

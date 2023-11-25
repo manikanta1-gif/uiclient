@@ -1,0 +1,14 @@
+[
+    {
+        "lbl": "User Id",
+        "type": "text",
+        "errMsg": "",
+        "name": "uid"
+    },
+    {
+        "lbl": "Password",
+        "type": "password",
+        "errMsg": "",
+        "name": "pwd"
+    }
+]
