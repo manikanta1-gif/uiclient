@@ -1,7 +1,7 @@
 import React from "react";
 const Home=()=>{
     return <div>
-        Home page..
+        <h4 className="text-center">Home page..</h4>
     </div>
 
 }

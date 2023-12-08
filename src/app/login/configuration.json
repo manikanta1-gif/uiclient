@@ -3,12 +3,22 @@
         "lbl": "User Id",
         "type": "text",
         "errMsg": "",
-        "name": "uid"
+        "name": "uid",
+        "value": "",
+        "criteria": [
+            "Required",
+            "EmailFormat"
+        ]
     },
     {
         "lbl": "Password",
         "type": "password",
         "errMsg": "",
-        "name": "pwd"
+        "name": "pwd",
+        "value": "",
+        "criteria": [
+            "Required",
+            "Min5Chars"
+        ]
     }
 ]
