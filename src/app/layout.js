@@ -4,7 +4,7 @@ import './globals.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'react-toastify/dist/ReactToastify.css';
 import { Inter } from 'next/font/google'
-import { appReducer } from '@/reducer/appReducer'
+import { appReducer } from '@/reducer/appReducer';
 import { init } from '@/utils/init'
 import { appCtx } from '@/context/appContext'
 import { Header } from '@/components/Header'
